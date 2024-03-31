@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#0E4B7C"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/instructionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_the_details_of_the_desired_restaurant"
+        android:textColor="#D7DBDF"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/restaurant_name"
+        android:layout_below="@id/instructionTextView"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:layout_below="@id/et1"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone"
+        android:layout_below="@id/et2"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/description"
+        android:layout_below="@id/et3"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rating"
+        android:layout_below="@id/et4"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:background="#FFFFFF"
+        android:textColor="#0E4B7C"
+        android:textSize="25sp"
+        android:layout_below="@id/et5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

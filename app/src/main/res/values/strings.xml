@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="search">search</string>
+    <string name="Sample_rating">Sample_rating</string>
+    <string name="Sample_name">Sample_name</string>
+    <string name="Sample_description">Sample_description</string>
+    <string name="Sample_location">Sample_location</string>
+    <string name="Sample_phones">Sample_phones</string>
+    <string name="Search">Search </string>
+    <string name="add">Add more Restaurants!</string>
+    <string name="enter_the_details_of_the_desired_restaurant">Enter the details of the desired restaurant:</string>
+    <string name="restaurant_name">Restaurant name</string>
+    <string name="rating">Rating</string>
+    <string name="submit">Submit</string>
+    <string name="phone">Phone</string>
+    <string name="description">Description</string>
+
+
+    <string-array name="restaurant_names">
+        <item>Green Terrace</item>
+        <item>Sea Breeze Cafe</item>
+        <item>Mountain Delight</item>
+        <item>Urban Grill</item>
+        <item>Sunset Burgers</item>
+        <item>Riverbank Dining</item>
+        <item>City Lights Lounge</item>
+        <item>Misty Vineyards</item>
+        <item>Golden Dragon</item>
+        <item>The Italian Table</item>
+        <item>Spice Junction</item>
+        <item>Blue Lagoon</item>
+        <item>Saffron Palace</item>
+        <item>The Breakfast Nook</item>
+        <item>Garden of Eatin</item>
+        <item>Moonlight Pizza</item>
+        <item>Ocean Edge</item>
+        <item>Happy Taco</item>
+        <item>Cosmos Cafe</item>
+        <item>Cherry Blossom Sushi</item>
+    </string-array>
+
+    <!-- Restaurant Locations -->
+    <string-array name="restaurant_locations">
+        <item>123 Oak Street</item>
+        <item>456 Palm Avenue</item>
+        <item>789 Pine Road</item>
+        <item>101 River Lane</item>
+        <item>202 Lake Shore</item>
+        <item>303 Hilltop Drive</item>
+        <item>404 City View Plaza</item>
+        <item>505 Vineyard St.</item>
+        <item>606 Dragon Way</item>
+        <item>707 Italian Alley</item>
+        <item>808 Spice Route</item>
+        <item>909 Lagoon Circle</item>
+        <item>1010 Royal Street</item>
+        <item>1111 Morning Lane</item>
+        <item>1212 Eden Road</item>
+        <item>1313 Crescent Ave</item>
+        <item>1414 Seaside Blvd</item>
+        <item>1515 Fiesta Road</item>
+        <item>1616 Starlight Terrace</item>
+        <item>1717 Blossom Lane</item>
+    </string-array>
+
+    <!-- Restaurant Phone Numbers -->
+    <string-array name="restaurant_phones">
+        <item>+1234567890</item>
+        <item>+2345678901</item>
+        <item>+3456789012</item>
+        <item>+4567890123</item>
+        <item>+5678901234</item>
+        <item>+6789012345</item>
+        <item>+7890123456</item>
+        <item>+8901234567</item>
+        <item>+9012345678</item>
+        <item>+0123456789</item>
+        <item>+1230987654</item>
+        <item>+2340987654</item>
+        <item>+3450987654</item>
+        <item>+4560987654</item>
+        <item>+5670987654</item>
+        <item>+6780987654</item>
+        <item>+7890987654</item>
+        <item>+8900987654</item>
+        <item>+9010987654</item>
+        <item>+0120987654</item>
+    </string-array>
+
+    <!-- Restaurant Descriptions -->
+    <string-array name="restaurant_descriptions">
+        <item>A cozy place with a beautiful garden</item>
+        <item>Enjoy the freshest seafood by the sea</item>
+        <item>Delights from the mountains and valleys</item>
+        <item>Modern cuisine in a sophisticated setting</item>
+        <item>Classic burgers with a view of the sunset</item>
+        <item>Enjoy dining by the serene riverbank</item>
+        <item>City views and ambient lighting</item>
+        <item>Wine and dine amidst the misty vineyards</item>
+        <item>Authentic Asian cuisine</item>
+        <item>Traditional Italian dishes in a cozy atmosphere</item>
+        <item>Aromatic spices and flavors from India</item>
+        <item>Tropical drinks and meals by the lagoon</item>
+        <item>Luxurious dining experience</item>
+        <item>Start your day with a hearty breakfast</item>
+        <item>Vegan paradise</item>
+        <item>Late-night pizzas under the moon</item>
+        <item>Dine at the edge of the ocean</item>
+        <item>Fun and vibrant Mexican eats</item>
+        <item>A cafe with an astronomical theme</item>
+        <item>Exquisite Japanese cuisine in a tranquil setting</item>
+    </string-array>
+
+    <!-- Restaurant Ratings -->
+    <string-array name="restaurant_ratings">
+        <item>4.5</item>
+        <item>4.0</item>
+        <item>4.2</item>
+        <item>4.8</item>
+        <item>4.1</item>
+        <item>4.3</item>
+        <item>4.7</item>
+        <item>4.6</item>
+        <item>4.4</item>
+        <item>4.9</item>
+        <item>4.2</item>
+        <item>4.3</item>
+        <item>4.5</item>
+        <item>3.9</item>
+        <item>4.0</item>
+        <item>4.1</item>
+        <item>4.6</item>
+        <item>3.8</item>
+        <item>4.7</item>
+        <item>4.5</item>
+    </string-array>
+
+</resources>

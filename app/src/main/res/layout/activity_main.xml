@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#0E4B7C">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/filter_bar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#D7DBDF">
+
+        <ImageButton
+            android:id="@+id/leftIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#D7DBDF"
+            android:src="@drawable/search" />
+
+        <EditText
+            android:id="@+id/searchId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#0E4B7C"
+            android:background="#D7DBDF"
+            android:layout_marginLeft="6dp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp"
+        android:id="@+id/add_bar"
+        android:layout_below="@id/filter_bar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#D7DBDF"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/addButton"
+            android:background="#0E4B7C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:textColor="#D7DBDF"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_bar"
+        android:layout_marginTop="6dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+</RelativeLayout>
